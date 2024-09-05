@@ -1,0 +1,85 @@
+*{
+    font-family:serif;
+    font-size: 1.1rem;
+}
+.navbar3{
+    background-color: rgba(104, 101, 101, 0.6); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur the background behind the navbar */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    padding: 10px 20px;
+    margin: 0;
+    
+}
+.title{
+    margin-left: 10px;
+    font-family:Anton;
+    font-size: 2.4rem;
+    color:#6EACDA ;
+    text-shadow: 2px 2px 1px black;
+}
+
+#carouselExampleCaptions > div.carousel-inner > div.carousel-item.active > div > h2{
+    color: white;
+}
+
+#carouselExampleCaptions > div.carousel-inner > div.carousel-item.active > div > p {
+    color: white;
+}
+
+.content{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainclass{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.subclass{
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5%;
+    box-shadow:4px 4px 8px 0 rgba(58, 174, 220, 0.5);
+    height: 350px;
+    text-align: center;
+    width: 450px;
+    background-color: #FDFFE2;
+    color: black;
+    margin-top: 200px ;
+}
+.classSignUP{
+    background-image: url('./public/images/image1.jpg'); 
+    background-repeat: no-repeat;           
+    background-size: cover;                 
+    background-attachment: fixed;           
+    background-position: center; 
+}
+
+.classSignUP1{
+    background-image: url('./public/images/image2.jpg'); 
+    background-repeat: no-repeat;           
+    background-size: cover;                 
+    background-attachment: fixed;           
+    background-position: center; 
+}
+
+body > section:nth-child(6) > h2{
+    background-color: transparent;
+    color: white;
+}
+
+.classh3{
+    text-align: center;
+    /* background-color: #E2vE2B6; */
+    color: #E2E2B6;
+    height: 45px;
+}
+/* .aboutclass{ 
+0 background-color: #E2E2B6;
+    color: #6EACDA;
+} */
+
